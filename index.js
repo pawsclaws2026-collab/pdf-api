@@ -1,6 +1,6 @@
 const express = require('express');
 const fileUpload = require('express-fileupload');
-const ILovePDFApi = require('@ilovepdf/ilovepdf-nodejs');
+const ILovePDFApi = require('ilovepdf-nodejs');
 
 const app = express();
 app.use(fileUpload());
